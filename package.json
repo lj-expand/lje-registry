@@ -1,0 +1,20 @@
+{
+  "name": "lje-registry",
+  "module": "src/index.ts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "prettier": "^3.9.6"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "smol-toml": "^1.8.0"
+  }
+}

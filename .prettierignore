@@ -1,0 +1,8 @@
+node_modules
+bun.lock
+.cache
+registry.json
+out
+dist
+coverage
+.idea
