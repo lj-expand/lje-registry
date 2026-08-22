@@ -1,0 +1,147 @@
+{
+  "generatedAt": "2026-08-22T16:27:44.491Z",
+  "scripts": [
+    {
+      "name": "7mint",
+      "version": "0.0.1-beta",
+      "authors": [
+        "pngmeow"
+      ],
+      "dependencies": [
+        "Eyoko1.lje-util"
+      ],
+      "binaries": [
+        "lje-imgui"
+      ],
+      "repo": "0xPLB/7mint",
+      "url": "https://github.com/0xPLB/7mint",
+      "pushedAt": "2026-08-18T20:10:29Z",
+      "description": "imagine D3C but if it was a bad chinese clone. 7mint is a Garry's mod cheat (x64), that utilizes lj-expand as it's loader."
+    },
+    {
+      "name": "antifreeze",
+      "version": "2.2.0",
+      "authors": [
+        "Xandertron",
+        "yogwoggf"
+      ],
+      "dependencies": [],
+      "binaries": [
+        "lje-ffi"
+      ],
+      "repo": "Xandertron/antifreeze",
+      "url": "https://github.com/Xandertron/antifreeze",
+      "pushedAt": "2026-07-30T06:42:04Z",
+      "description": "a swiss army knife multi-tool script for LJE (a tool for garry's mod allowing you to run clientside lua with basically no detection)"
+    },
+    {
+      "name": "ffi-lens",
+      "version": "1.0.0",
+      "authors": [
+        "yogwoggf"
+      ],
+      "dependencies": [],
+      "binaries": [
+        "lje-ffi",
+        "lje-imgui"
+      ],
+      "repo": "lj-expand/ffi-lens",
+      "url": "https://github.com/lj-expand/ffi-lens",
+      "pushedAt": "2026-06-28T01:03:28Z",
+      "description": "ffi-lens is a FFI tool focused on GMod reverse engineering. It provides a neat, simple ImGUI interface to explore and interact with the game's memory, modules, and more. It's designed to be user-friendly and efficient, making it easier for developers to locate certain functions and data within the game's memory."
+    },
+    {
+      "name": "gilbhax",
+      "version": "2.0.0",
+      "authors": [
+        "yogwoggf"
+      ],
+      "dependencies": [],
+      "binaries": [
+        "lje-ffi"
+      ],
+      "repo": "lj-expand/gilbhax",
+      "url": "https://github.com/lj-expand/gilbhax",
+      "pushedAt": "2026-07-01T05:16:52Z",
+      "description": "Rewrite of gilbhax for LJE 2, the new isolated state model."
+    },
+    {
+      "name": "lje-console",
+      "version": "1.0.0",
+      "authors": [
+        "yogwoggf"
+      ],
+      "dependencies": [],
+      "binaries": [
+        "lje-ffi"
+      ],
+      "repo": "lj-expand/lje-console",
+      "url": "https://github.com/lj-expand/lje-console",
+      "pushedAt": "2026-06-28T01:05:14Z",
+      "description": "Simple FFI-powered script to allow you to connect to a running LJE instance over telnet. You can simply run it locally with:"
+    },
+    {
+      "name": "lje-http",
+      "version": "0.1.0",
+      "authors": [
+        "yogwoggf"
+      ],
+      "dependencies": [],
+      "binaries": [
+        "lje-ffi"
+      ],
+      "repo": "lj-expand/lje-http",
+      "url": "https://github.com/lj-expand/lje-http",
+      "pushedAt": "2026-06-29T16:10:08Z",
+      "description": "This is an LJE module restoring the HTTP functionality that was removed from LJE's GMod API as it was unsafe and incompatible with LJE 2's design. It is essentially the same exact thing as the GMod HTTP function, utilizing cURL to perform the requests, but with a few differences:"
+    },
+    {
+      "name": "lje-util",
+      "version": "1.1.0",
+      "authors": [
+        "Eyoko1"
+      ],
+      "dependencies": [],
+      "binaries": [
+        "lje-ffi"
+      ],
+      "repo": "Eyoko1/lje-util",
+      "url": "https://github.com/Eyoko1/lje-util",
+      "pushedAt": "2026-08-17T22:23:02Z",
+      "description": "A utility library made for LJ-Expand which re-adds a lot of functions implemented purely in GLua, as well as new functions which would be useful, and provides security features which would otherwise need to be manually created."
+    },
+    {
+      "name": "name",
+      "version": "1.0.0",
+      "authors": [
+        "yourname"
+      ],
+      "dependencies": [
+        ""
+      ],
+      "binaries": [
+        ""
+      ],
+      "repo": "0xPLB/base",
+      "url": "https://github.com/0xPLB/base",
+      "pushedAt": "2026-04-02T17:53:40Z",
+      "description": "A base script for lj-expand"
+    },
+    {
+      "name": "tts",
+      "version": "0.1.0",
+      "authors": [
+        "yogwoggf"
+      ],
+      "dependencies": [],
+      "binaries": [
+        "lje-ffi",
+        "lje-imgui"
+      ],
+      "repo": "yogwoggf/tts",
+      "url": "https://github.com/yogwoggf/tts",
+      "pushedAt": "2026-07-28T22:34:16Z",
+      "description": "Fully local text-to-speech piped into GMod's voice chat, entirely in-process using LJE & LJE-FFI."
+    }
+  ]
+}
